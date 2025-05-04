@@ -1,0 +1,24 @@
+# Basic settings
+title: "Safety of Visuomotor Policies"
+author: "Riad Ahmed et al."
+email: "riad@example.com"
+description: "Policy-agnostic safe-set construction and runtime recovery for visuomotor control."
+url: "https://riadahmed.github.io"      # no trailing slash
+baseurl: ""                            # since it's user site
+
+# Theme: Minimal Mistakes remote theme (GitHub Pages compatible)
+remote_theme: mmistakes/minimal-mistakes@4.27.1
+plugins:
+  - jekyll-include-cache
+
+# Navigation (see _data/navigation.yml)
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
