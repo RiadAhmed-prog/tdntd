@@ -220,25 +220,25 @@
 
 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
+<!-- Youtube video --> -->
+<!-- <section class="hero is-small is-light"> -->
+  <!-- <div class="hero-body"> -->
+    <!-- <div class="container"> -->
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
+      <!-- <h2 class="title is-3">Video Presentation</h2> -->
+      <!-- <div class="columns is-centered has-text-centered"> -->
+        <!-- <div class="column is-four-fifths"> -->
           
-          <div class="publication-video">
+          <!-- <div class="publication-video"> -->
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
+            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </section> -->
+<!-- End youtube video
 
 
 <!-- Video carousel -->
@@ -275,6 +275,64 @@
 <!-- End video carousel -->
 
 
+<section class="section">
+  <div class="container">
+    <h2 class="title is-4">Simulation Environment Task Failing</h2>
+    <div class="columns is-multiline is-variable is-2">
+
+      <!-- Video 1 -->
+      <div class="column is-one-quarter-desktop is-half-tablet">
+        <div class="video-item">
+          <video
+            src="static/videos/base_c_f.mp4"
+            autoplay muted loop controls>
+          </video>
+          <div class="caption">close bottom drawer (real)</div>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="column is-one-quarter-desktop is-half-tablet">
+        <div class="video-item">
+          <video
+            src="static/videos/base_ood1_f.mp4"
+            autoplay muted loop controls>
+          </video>
+          <div class="caption">
+            Failing the task for OOD1: Rollout started from an unknown intial position. 
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="column is-one-quarter-desktop is-half-tablet">
+        <div class="video-item">
+          <video
+            src="static/videos/base_ood2_f.mp4"
+            autoplay muted loop controls>
+          </video>
+          <div class="caption">Failing the task due to OOD2: Some distractors are introduced in the environment which is causing out of distribution
+            in the perception space.
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 4 -->
+      <div class="column is-one-quarter-desktop is-half-tablet">
+        <div class="video-item">
+          <video
+            src="static/videos/base_c_ood3.mp4"
+            autoplay muted loop controls>
+          </video>
+          <div class="caption">Failing the task due to both OOD1 and OOD2 : which means that the robot has started rollout from an unknown intial position and
+            there are some distractor in the scene.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
 
