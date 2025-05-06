@@ -58,7 +58,7 @@
               <span class="author-block">
                 <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Riad Ahmed</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Mohammad Moniruzzaman Akash</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Mohammad Moniruzzaman Akash</a>,</span>
                   <span class="author-block">
                     <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Momotaz Begum</a>
                   </span>
@@ -123,32 +123,44 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser image + videos side by side -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/s_ood1_s.mp4"
-        type="video/mp4">
-      </video>
-      <!-- <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2> -->
+
+    <!-- 1) Image above the videos -->
+    <div class="has-text-centered mb-5">
+      <figure class="image is-4by3 is-inline-block">
+        <img src="static/images/overall_flow.png" alt="Descriptive Alt Text">
+      </figure>
     </div>
-    <div class="hero-body">
-        <video poster="" id="tree" autoplay controls muted loop height="100%">
-          <!-- Your video here -->
-          <source src="static/videos/s_ood2_s.mp4"
-          type="video/mp4">
+
+    <!-- 2) Videos side by side -->
+    <div class="columns is-variable is-4">
+      <div class="column">
+        <video
+          src="static/videos/s_ood1_s.mp4"
+          autoplay
+          muted
+          loop
+          controls
+          style="width: 100%; height: auto;">
         </video>
-        <!-- <h2 class="subtitle has-text-centered">
-          Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-        </h2> -->
       </div>
+      <div class="column">
+        <video
+          src="static/videos/s_ood2_s.mp4"
+          autoplay
+          muted
+          loop
+          controls
+          style="width: 100%; height: auto;">
+        </video>
+      </div>
+    </div>
+
   </div>
 </section>
-<!-- End teaser video -->
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
